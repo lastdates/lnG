@@ -14,7 +14,7 @@ Sample code
 <lng v:0="no message" v:1="message" v="2">messages</lng>     // messages
 <lng v:0="no message" v:1="message" v="3">messages</lng>     // messages
 
-<lng v:boy="his" v:girl="her" v="girl">their</lng>           // her
+<lng class="gender" v:boy="his" v:girl="her" v="girl">their</lng>         // her
 ```
 
 To update pBar-items after new items are added to document
