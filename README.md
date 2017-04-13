@@ -15,6 +15,7 @@ Sample code
 <lng v:0="no message" v:1="message" v="3">messages</lng>     // messages
 
 <lng v:boy="his" v:girl="her" v="girl" class="gender">their</lng>      // her
+
 v:boy="his"  // print "his" if v="boy"
 v:girl="her" // print "her" if v="girl"
 v="girl"     // value of element
