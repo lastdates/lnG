@@ -17,7 +17,7 @@ Sample code
 <lng class="gender" v:boy="his" v:girl="her" v="girl">their</lng>         // her
 ```
 
-To update pBar-items after new items are added to document
+To update lnG-items after new items are added or modifed
 ```javascript
 $("lng").lng(); // run for new elements
 $("lng.gender").lng('boy'); // to update gender in text
