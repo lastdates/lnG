@@ -12,10 +12,10 @@
 (function($){
 	$.fn.lng = function(_v){
 		return this.each(function(){
-			var _lng = $(this);
-			_v = _v || _lng.attr("v");
-			if( _lng.attr("v:") === undefined ) _lng.attr( "v:", _lng.text() );
-			_lng.text( ( _lng.attr("v:" + _v) === undefined ) ? _lng.attr("v:") : _lng.attr("v:" + _v) );
+			var _el = $(this);
+			_v = _v || _el.attr("v");
+			if( _el.attr("v:") === undefined ) _el.attr( "v:", _el.text() );
+			_el.text( ( _el.attr("v:" + _v) === undefined ) ? _el.attr("v:") : _el.attr("v:" + _v) );
 		});
 	}
 	$(document).ready(function(){
